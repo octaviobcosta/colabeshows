@@ -1,0 +1,23 @@
+{
+  "project": "Portal de Fornecedores eshows",
+  "defaultContext": [
+    "Laws/PROJECT_LAW.md",
+    "docs/ROADMAP.md",
+    "docs/BRIEFING.md"
+  ],
+  "rules": [
+    "PROJECT_LAW.md é a lei suprema - NUNCA violar",
+    "Seguir ROADMAP.md sequencialmente",
+    "Implementar todos requisitos do BRIEFING.md",
+    "Usar checklist da LAW antes de cada etapa",
+    "Documentar decisões em /docs",
+    "Commits seguem Conventional Commits"
+  ],
+  "model": "claude-opus-4-20250514",
+  "temperature": 0.3,
+  "outputFormat": "structured",
+  "language": "pt-BR",
+  "framework": "Next.js 14 + TypeScript + Supabase",
+  "saveConversations": true,
+  "conversationPath": "logs/"
+}
